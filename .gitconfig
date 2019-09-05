@@ -1,0 +1,21 @@
+[user]
+	email = viktor.rehnberg@gmail.com
+	name = vikren
+
+[alias]
+    tree = log --all --graph --pretty=oneline --abbrev-commit --decorate=short
+    c = commit -m
+    count = rev-list HEAD --count
+    ff = merge --ff
+    pull = --ff
+#    dd = diff @ @(upstream)
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore_global
+
+[push]
+	default = simple
+
+[merge]
+    ff = no
